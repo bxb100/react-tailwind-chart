@@ -11,4 +11,5 @@ install tips:
 
 # Show
 
-![](./static/1.png)
+[![see in github page](./static/1.png)](https://bxb100.github.io/react-tailwind-chart/)
+
