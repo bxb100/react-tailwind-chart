@@ -74,7 +74,7 @@ const StockChart = ({ info }) => {
                         </h3>
                         <h6 className="text-sm leading-tight mb-2">
                             <span>{info.stockShortName}</span>
-                            &nbsp;&nbsp;-&nbsp;&nbsp;Aug 2nd 4:00pm AEST
+                            &nbsp;&nbsp;-&nbsp;&nbsp;Aug 2nd 4:10pm AEST
                         </h6>
                         <div className="flex w-full items-end mb-6">
                             <span className="block leading-none text-3xl text-gray-800">
