@@ -1,6 +1,9 @@
 import { Line } from 'react-chartjs-2';
+import { Chart as ChartJS, LineElement, PointElement, LinearScale, Title, CategoryScale } from 'chart.js';
+
 import React from 'react';
 
+ChartJS.register(LineElement, PointElement, LinearScale, Title, CategoryScale);
 const formatter = (number) => (number > 999999 ? (number / 1000000).toFixed(1) + 'M' : number);
 
 const buildData = ({ chartData }) => ({
@@ -63,7 +66,7 @@ const StockChart = ({ info }) => {
         <>
             <div className="rounded shadow-xl overflow-hidden w-full md:flex" style={{ maxWidth: '900px' }}>
                 <div className="flex w-full md:w-1/2 px-5 pb-4 pt-8 bg-indigo-500 text-white items-center">
-                    <Line data={data} options={options} />
+                    <Line type="line" data={data} options={options} />
                 </div>
                 <div className="flex w-full md:w-1/2 p-10 bg-gray-100 text-gray-600 items-center">
                     <div className="w-full">
