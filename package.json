@@ -6,7 +6,7 @@
   "dependencies": {
     "@craco/craco": "6.4.3",
     "autoprefixer": "9.8.8",
-    "chart.js": "3.6.0",
+    "chart.js": "3.7.0",
     "postcss": "7.0.39",
     "react": "17.0.2",
     "react-chartjs-2": "3.3.0",
