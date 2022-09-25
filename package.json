@@ -10,7 +10,7 @@
     "react-scripts": "5.0.0",
     "web-vitals": "2.1.4",
 
-    "chart.js": "3.7.0",
+    "chart.js": "3.9.1",
     "react-chartjs-2": "4.0.1",
 
     "tailwindcss": "3.0.16",
