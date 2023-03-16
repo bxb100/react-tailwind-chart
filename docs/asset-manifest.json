@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-tailwind-chart/static/css/main.f426cf70.css",
+    "main.css": "/react-tailwind-chart/static/css/main.d94dbeb7.css",
     "main.js": "/react-tailwind-chart/static/js/main.5418577c.js",
     "index.html": "/react-tailwind-chart/index.html",
-    "main.f426cf70.css.map": "/react-tailwind-chart/static/css/main.f426cf70.css.map",
+    "main.d94dbeb7.css.map": "/react-tailwind-chart/static/css/main.d94dbeb7.css.map",
     "main.5418577c.js.map": "/react-tailwind-chart/static/js/main.5418577c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f426cf70.css",
+    "static/css/main.d94dbeb7.css",
     "static/js/main.5418577c.js"
   ]
 }
